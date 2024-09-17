@@ -4,7 +4,35 @@
     margin: 0;
     padding: 0;
   }
+  .logo-image{
+    height: 70px;
+    vertical-align: middle;
+  }
   .logo-title{
     display: inline;
+    vertical-align: middle;
+    font-size: 50px;
 
   }
+  .container{
+    margin: 0 auto;
+  padding: 0 10px;
+  width: 1350px;
+  max-width: 100%;
+}
+.add-task{
+    display: inline;
+    margin: 250 auto;
+  padding: 0 250px;
+  width: 1350px;
+  max-width: 100%;
+}
+.add-section{
+    
+    margin: 250 auto;
+  padding: 0 250px;
+  width: 1350px;
+  max-width: 100%;
+
+}
+
