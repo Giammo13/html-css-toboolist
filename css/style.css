@@ -15,5 +15,41 @@ body {background-color: gray;
   width: 800px;
   max-width: 100%;
 }
+.btn{
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: .8rem;
+  cursor: pointer;
+}
+.btn.btn-primary{
+  background-color: blue;
+  color: white;
+  border: 1px solid transparent;
 
+}
+/* #HEADER*/
+.page-header{
+  background-color: white;
+  line-height: 80px;
+}
+.page-header-logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.page-header-title{
+vertical-align: middle;
+display: inline-block;
 
+}
+.card{
+  background-color: white;
+  margin-top: 100px;
+  padding: 15px ;
+}
+.card-header{
+  padding: 15px;
+  border-bottom: 2px solid gray;
+}
