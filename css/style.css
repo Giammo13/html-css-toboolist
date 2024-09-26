@@ -103,21 +103,21 @@ display: inline-block;
   color: white;
   border: 10px;
 }
-label.editorial{
+.label.editorial{
   background-color: #44aae9;
 }
-label.goals{
+.label.goals{
 background-color: #9b71e3;
 }
-label.recruiting{
+.label.recruiting{
   background-color: #63bfa8;
 }
-label.mobile{
+.label.mobile{
   background-color: #f19d32;
 }
-label.sales{
+.label.sales{
   background-color: #d762a0;
 }
-label.website{
+.label.website{
   background-color: #b0c925;
 }
