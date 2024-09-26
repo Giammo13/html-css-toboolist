@@ -22,11 +22,18 @@ body {background-color: gray;
   padding: 5px;
   font-size: .8rem;
   cursor: pointer;
+  border: 1px solid currentColor;
 }
 .btn.btn-primary{
-  background-color: blue;
+  background-color: rgb(0, 136, 255);
   color: white;
-  border: 1px solid transparent;
+  border: 1px solid rgb(0, 136, 255);
+
+}
+.btn.btn-secondary{
+  background-color: rgb(255, 255, 255);
+  color: #868686;
+  border: 1px solid  #868686;
 
 }
 /* #HEADER*/
@@ -49,7 +56,68 @@ display: inline-block;
   margin-top: 100px;
   padding: 15px ;
 }
+.card-body{
+  padding: 15px;
+}
 .card-header{
   padding: 15px;
   border-bottom: 2px solid gray;
+}
+/* #LISTS*/
+.todo-section{
+  margin-bottom: 15px;
+}
+.todo-list{
+  list-style-type: none;
+}
+.todo-list-title{
+  text-transform: capitalize;
+}
+.mark{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+ 
+}
+.mark-mark-fail{
+  border: 1px solid rgb(212, 0, 0);
+  color: rgb(212, 0, 0)
+}
+.mark-mark-success{
+  border: 1px solid green;
+  color: green
+}
+.todo-list-item{
+  margin: 10px 0;
+}
+/* #LABELS*/
+.label{
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: .7rem;
+  font-weight: bold;
+  background-color: #868686;
+  color: white;
+  border: 10px;
+}
+label.editorial{
+  background-color: #44aae9;
+}
+label.goals{
+background-color: #9b71e3;
+}
+label.recruiting{
+  background-color: #63bfa8;
+}
+label.mobile{
+  background-color: #f19d32;
+}
+label.sales{
+  background-color: #d762a0;
+}
+label.website{
+  background-color: #b0c925;
 }
